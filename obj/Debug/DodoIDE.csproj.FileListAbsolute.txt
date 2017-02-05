@@ -1,0 +1,67 @@
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\bin\Debug\DodoIDE.exe.config
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\bin\Debug\DodoIDE.exe
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\bin\Debug\DodoIDE.pdb
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.csprojResolveAssemblyReference.cache
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Properties.Resources.resources
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.csproj.GenerateResource.Cache
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.exe
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.pdb
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Dialogs.ResourseTemplateDialog.resources
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.frmTester.resources
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Dialogs.LoadingDialog.resources
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\bin\Debug\FenixLib.dll
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\bin\Debug\FenixLib.Gdip.dll
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\bin\Debug\FenixLib.pdb
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\bin\Debug\FenixLib.Gdip.pdb
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Controls.PaletteControl.resources
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\bin\Debug\ScintillaNET.dll
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\bin\Debug\ScintillaNET.xml
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Controls.FontViewerControl.resources
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Controls.SourceEditorControl.resources
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.frmMain.resources
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Controls.ConsoleControl.resources
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Controls.ProjectExplorerControl.resources
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Controls.SourceCodeController.resources
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Controls.FileViewerControl.resources
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Dialogs.TemplateDialog.resources
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Dialogs.InputDialog.resources
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Controls.MapEditorControl.resources
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Controls.NewsPageControl.resources
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Controls.StartPageControl.resources
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Dialogs.SpriteImportAsistantDialog.resources
+C:\Users\Theos\Documents\Visual Studio 2015\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Controls.SpriteViewerControl.resources
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\bin\Debug\DodoIDE.exe.config
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.exe
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.pdb
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.csprojResolveAssemblyReference.cache
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Controls.ConsoleControl.resources
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Controls.FileViewerControl.resources
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Controls.MapEditorControl.resources
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Controls.FontViewerControl.resources
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Controls.NewsPageControl.resources
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Controls.PaletteControl.resources
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Controls.SourceCodeController.resources
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Controls.SourceEditorControl.resources
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Controls.SpriteViewerControl.resources
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Controls.StartPageControl.resources
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Dialogs.InputDialog.resources
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Dialogs.LoadingDialog.resources
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Dialogs.ResourseTemplateDialog.resources
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Dialogs.SpriteImportAsistantDialog.resources
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Dialogs.TemplateDialog.resources
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.frmMain.resources
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.frmTester.resources
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Controls.ProjectExplorerControl.resources
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Properties.Resources.resources
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.csproj.GenerateResource.Cache
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\bin\Debug\DodoIDE.exe
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\bin\Debug\DodoIDE.pdb
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\bin\Debug\ScintillaNET.dll
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\bin\Debug\FenixLib.pdb
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\bin\Debug\FenixLib.Gdip.pdb
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\bin\Debug\ScintillaNET.xml
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Controls.MapEditorInterface.BucketTool.resources
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Controls.MapEditorInterface.ElipseTool.resources
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Controls.MapEditorInterface.SprayTool.resources
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\bin\Debug\AutocompleteMenu-ScintillaNET.dll
+C:\Users\Theos\Google Drive\Projects\20170117\DodoIDE\DodoIDE\obj\Debug\DodoIDE.Dialogs.MapSizeDialog.resources

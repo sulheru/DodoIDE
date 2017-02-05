@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C98B8CEA-44CF-4EEF-8900-8F107D25CCF1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DodoIDE</RootNamespace>
+    <AssemblyName>DodoIDE</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutocompleteMenu-ScintillaNET, Version=1.3.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoCompleteMenu-ScintillaNET.1.5.0\lib\net40\AutocompleteMenu-ScintillaNET.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FenixLib">
+      <HintPath>..\..\..\fenixlib-master\FenixLib\FenixLib\bin\Debug\FenixLib.dll</HintPath>
+    </Reference>
+    <Reference Include="FenixLib.Gdip">
+      <HintPath>..\..\..\fenixlib-master\FenixLib\FenixLib.Gdip\bin\Debug\FenixLib.Gdip.dll</HintPath>
+    </Reference>
+    <Reference Include="ScintillaNET, Version=3.5.10.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\jacobslusser.ScintillaNET.3.5.10\lib\net40\ScintillaNET.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\TemplateObject.cs" />
+    <Compile Include="Controls\ConsoleControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ConsoleControl.designer.cs">
+      <DependentUpon>ConsoleControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FileViewerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\FileViewerControl.Designer.cs">
+      <DependentUpon>FileViewerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MapEditorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MapEditorControl.Designer.cs">
+      <DependentUpon>MapEditorControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FontViewerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\FontViewerControl.Designer.cs">
+      <DependentUpon>FontViewerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MapEditorInterface\BucketTool.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MapEditorInterface\BucketTool.Designer.cs">
+      <DependentUpon>BucketTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MapEditorInterface\ElipseTool.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MapEditorInterface\ElipseTool.Designer.cs">
+      <DependentUpon>ElipseTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MapEditorInterface\CurveTool.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MapEditorInterface\CurveTool.Designer.cs">
+      <DependentUpon>CurveTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MapEditorInterface\LineTool.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MapEditorInterface\LineTool.Designer.cs">
+      <DependentUpon>LineTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MapEditorInterface\BrushTool.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MapEditorInterface\BrushTool.Designer.cs">
+      <DependentUpon>BrushTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MapEditorInterface\PoligoneTool.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MapEditorInterface\PoligoneTool.Designer.cs">
+      <DependentUpon>PoligoneTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MapEditorInterface\SprayTool.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MapEditorInterface\SprayTool.Designer.cs">
+      <DependentUpon>SprayTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MapEditorInterface\SelectionTool.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MapEditorInterface\SelectionTool.Designer.cs">
+      <DependentUpon>SelectionTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MapEditorInterface\SquareTool.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MapEditorInterface\SquareTool.Designer.cs">
+      <DependentUpon>SquareTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MapEditorInterface\WriteTool.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MapEditorInterface\WriteTool.Designer.cs">
+      <DependentUpon>WriteTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NewsPageControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NewsPageControl.Designer.cs">
+      <DependentUpon>NewsPageControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SourceCodeController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SourceCodeController.Designer.cs">
+      <DependentUpon>SourceCodeController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SourceEditorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SourceEditorControl.Designer.cs">
+      <DependentUpon>SourceEditorControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SpriteViewerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\SpriteViewerControl.Designer.cs">
+      <DependentUpon>SpriteViewerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\StartPageControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\StartPageControl.Designer.cs">
+      <DependentUpon>StartPageControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\InputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\InputDialog.Designer.cs">
+      <DependentUpon>InputDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\MapSizeDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\MapSizeDialog.Designer.cs">
+      <DependentUpon>MapSizeDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\SetupDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\SetupDialog.Designer.cs">
+      <DependentUpon>SetupDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\SpriteImportAsistantDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\SpriteImportAsistantDialog.Designer.cs">
+      <DependentUpon>SpriteImportAsistantDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\TemplateDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\TemplateDialog.Designer.cs">
+      <DependentUpon>TemplateDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\IMapEditorTool.cs" />
+    <Compile Include="Controls\PaletteControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PaletteControl.Designer.cs">
+      <DependentUpon>PaletteControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\LoadingDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\LoadingDialog.Designer.cs">
+      <DependentUpon>LoadingDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ResourseTemplateDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ResourseTemplateDialog.Designer.cs">
+      <DependentUpon>ResourseTemplateDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTester.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTester.Designer.cs">
+      <DependentUpon>frmTester.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\ICommonMenuOptions.cs" />
+    <Compile Include="PanelController.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Controls\ProjectExplorerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ProjectExplorerControl.Designer.cs">
+      <DependentUpon>ProjectExplorerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Controls\ConsoleControl.resx">
+      <DependentUpon>ConsoleControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\FileViewerControl.resx">
+      <DependentUpon>FileViewerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MapEditorControl.resx">
+      <DependentUpon>MapEditorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\FontViewerControl.resx">
+      <DependentUpon>FontViewerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MapEditorInterface\BucketTool.resx">
+      <DependentUpon>BucketTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MapEditorInterface\ElipseTool.resx">
+      <DependentUpon>ElipseTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MapEditorInterface\SprayTool.resx">
+      <DependentUpon>SprayTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NewsPageControl.resx">
+      <DependentUpon>NewsPageControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PaletteControl.resx">
+      <DependentUpon>PaletteControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SourceCodeController.resx">
+      <DependentUpon>SourceCodeController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SourceEditorControl.resx">
+      <DependentUpon>SourceEditorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\SpriteViewerControl.resx">
+      <DependentUpon>SpriteViewerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\StartPageControl.resx">
+      <DependentUpon>StartPageControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\InputDialog.resx">
+      <DependentUpon>InputDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\LoadingDialog.resx">
+      <DependentUpon>LoadingDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\MapSizeDialog.resx">
+      <DependentUpon>MapSizeDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ResourseTemplateDialog.resx">
+      <DependentUpon>ResourseTemplateDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\SpriteImportAsistantDialog.resx">
+      <DependentUpon>SpriteImportAsistantDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\TemplateDialog.resx">
+      <DependentUpon>TemplateDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTester.resx">
+      <DependentUpon>frmTester.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ProjectExplorerControl.resx">
+      <DependentUpon>ProjectExplorerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\CódigoFuente.rtf" />
+    <None Include="Resources\FicheroParaGraficos.rtf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\writing.png" />
+    <None Include="Resources\spray.png" />
+    <None Include="Resources\text.png" />
+    <None Include="Resources\straight-horizontal-line.png" />
+    <None Include="Resources\StartPageHtml.txt" />
+    <None Include="Resources\Stop playing1.png" />
+    <None Include="Resources\Stop playing.png" />
+    <None Include="Resources\Brush001.png" />
+    <None Include="Resources\Play.png" />
+    <None Include="Resources\Brush1.png" />
+    <None Include="Resources\fill.png" />
+    <None Include="Resources\Mouse pointer.png" />
+    <None Include="Resources\NiñoPatada.png" />
+    <None Include="Resources\pallete.png" />
+    <None Include="Resources\Pick color.png" />
+    <None Include="Resources\PinClosed.png" />
+    <None Include="Resources\PinOpened.png" />
+    <None Include="Resources\Play1.png" />
+    <None Include="Resources\Selection.png" />
+    <None Include="Resources\prg.txt" />
+    <None Include="Resources\Package.png" />
+    <None Include="Resources\SourceFile.png" />
+    <None Include="Resources\FontIcon.png" />
+    <None Include="Resources\Image file.png" />
+    <None Include="Resources\ellipse-outline-shape-variant.png" />
+    <None Include="Resources\paint-brush.png" />
+    <None Include="Resources\polygon.png" />
+    <None Include="Resources\scribble.png" />
+    <None Include="Resources\select-all.png" />
+    <None Include="Resources\brush.png" />
+    <None Include="Resources\brush-1.png" />
+    <None Include="Resources\crop.png" />
+    <None Include="Resources\dropper.png" />
+    <None Include="Resources\edit.png" />
+    <None Include="Resources\eraser.png" />
+    <None Include="Resources\magic-wand.png" />
+    <None Include="Resources\paint-bucket.png" />
+    <None Include="Resources\palette.png" />
+    <None Include="Resources\pen.png" />
+    <None Include="Resources\pencil.png" />
+    <None Include="Resources\picture.png" />
+    <None Include="Resources\picture-1.png" />
+    <None Include="Resources\scale.png" />
+    <None Include="Resources\diagonal-line.png" />
+    <Content Include="Resources\SourceFileDescription.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

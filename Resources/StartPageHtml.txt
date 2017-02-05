@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1><span style="font-family:lucida sans unicode,lucida grande,sans-serif;">P&aacute;gina de inicio</span></h1>
+
+<pre>
+<font face="lucida sans unicode, lucida grande, sans-serif">Acciones m&aacute;s usadas</font></pre>
+
+<ul>
+	<li><a href="#" onclick="window.external.newFile()">Nuevo proyecto</a></li>
+	<li><a href="#" onclick="window.external.openFile()">Abrir proyecto</a></li>
+</ul>
+
+<pre>
+
+<font face="lucida sans unicode, lucida grande, sans-serif">Proyectos Recientes</font></pre>
+
+<ul>
+	{0}
+</ul>
+
+<p>&nbsp;</p>
+</body>
+</html>
